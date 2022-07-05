@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="./Timer.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+          />
+  </head>
+  <body>
+
+     <div class="container main h-100 ">
+         <div class="row R1 ">
+             <div class="wrap ">
+            <div class="row R1R1 ">
+                <div class="col-lg-4 col-sm-12 col-md-4 align-self-center ">
+                    <div class="timer">
+                    <div class="timer-card ">
+                       <span id="mainminute" class="Hours">00</span>
+                      </div>
+                      <h1>Minutes</h1>
+                  </div>
+                   </div>
+                   <div class="col-lg-4 col-sm-12 col-md-4 align-self-center">
+                       <div class="timer">
+                          <div class="timer-card">
+                              <span id="mainsecond"  class="Min">00</span>
+                             </div>
+                             <h1 >Seconds</h1>
+                       </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12 col-md-4 align-self-center">
+                      <div class="timer">
+                          <div class="timer-card ">
+                              <span id="milliseconds" class="Sec">00</span>
+                             </div>
+                             <h1>milliseconds</h1>
+                      </div>
+                  </div>
+             </div>
+             <div class="row R1R1 ">
+              
+                <div class="timerControl ">
+                    <div class="start" id="start">
+                        <svg  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#aeaeae" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 4v16l13 -8z" />
+                          </svg>
+                    </div>
+                    <div class="pause" id="pause">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-stop" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#aeaeae" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="5" y="5" width="14" height="14" rx="2" />
+                          </svg>
+                    </div>
+                    <div class="rest" id="rest">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#aeaeae" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+                            <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+                          </svg>
+                    </div>
+                </div>
+             
+            </div>
+
+         </div>
+</div>
+<footer>
+</footer>
+  </body>
+  <script src="./timer.js"></script>
+</html>

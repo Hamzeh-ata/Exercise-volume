@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+body {
+  background-color: #212020 !important;
+}
+body,
+html {
+  height: 100%;
+}
+.main-section {
+  height: 100%;
+  background-image: url(./imgs/backgroundprepare.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.startWorkout p {
+  color: aliceblue;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.51);
+}
+.startNew-workout {
+  display: flex;
+  justify-content: center;
+}
+.startNew-workout a {
+  background-color: #c54545;
+  padding: 5px;
+  border-radius: 9px;
+  width: 420px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  color: #dbdbdb !important;
+  margin: 5px 0px 5px 0px;
+  height: 37px;
+  font-family: "Staatliches", cursive;
+  text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.51);
+}
+a{
+    text-decoration: none !important;
+}
